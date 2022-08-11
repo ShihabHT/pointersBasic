@@ -61,7 +61,7 @@ int main()
     /*Dynamic array : is array that is created in runtime. When we create an array this way
     we also have the responsibility of delete the array when we don't need it anymore.*/
     int size;
-    cout<<"Array size : ";
+    cout<<"Dynamic Array size : ";
     cin>>size;
     //int myArray[size]; //static array
     cout<<"Array address with new keyword : "<<new int[size]<<endl; //this prints address of the array
