@@ -9,6 +9,8 @@ using namespace std;
     variable, the type of the pointer variable and type
     of the variable we want to store the address of has to
     be the same.
+    pointer tutorials: https://www.youtube.com/watch?v=eNofmKYzje4&list=PL43pGnjiVwgSSRlwfahAuIqoJ8TfDIlHq
+    
 */
 void print(void* p, char c){
     switch(c){
